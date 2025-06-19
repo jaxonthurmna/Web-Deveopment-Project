@@ -1,47 +1,107 @@
-<ol>
-  <li>The Fountainhead
-    <ul>
-      <li>Individualism</li>
-      <li>Architectural integrity</li>
-    </ul>
-  </li>
-  <li>Atlas Shrugged
-    <ul>
-      <li>Rational self‑interest</li>
-      <li>Capitalism as moral</li>
-    </ul>
-  </li>
-</ol>
-<img src="ayn‑rand‑photo.jpg" alt="Ayn Rand in 1940s" />
-<iframe width="560" height="315"
- src="https://www.youtube.com/embed/VIDEO_ID"
- title="Ayn Rand Objectivism Explained"
- frameborder="0" allowfullscreen></iframe>
-<a href="#fountainhead">Dive Deeper</a>
-...
-<h2 id="fountainhead">The Fountainhead & Themes</h2>
-<div class="tableauPlaceholder" id="viz">
-  <!-- embed code from Tableau Public -->
-</div>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Ayn Rand Showcase</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <div id="header" class="header">
+    <h1>Ayn Rand: Philosopher & Novelist</h1>
+  </div>
+
+  <div class="nav">
+    <a href="#bio">Biography</a> |
+    <a href="#video">Interview</a> |
+    <a href="#tableau">Live Data</a>
+  </div>
+
+  <div id="bio" class="content">
+    <h2>Early Life</h2>
+    <img src="ayn1.jpg" alt="Ayn Rand portrait">
+    <p>Ayn Rand was born Alisa Zinovyevna Rosenbaum in 1905 in Saint Petersburg... (add your own summary)</p>
+  </div>
+
+  <div class="content">
+    <h2>Major Works</h2>
+    <ol>
+      <li>The Fountainhead
+        <ul>
+          <li>Individualism</li>
+          <li>Architectural themes</li>
+        </ul>
+      </li>
+      <li>Atlas Shrugged
+        <ul>
+          <li>Rational self-interest</li>
+          <li>Capitalism</li>
+        </ul>
+      </li>
+    </ol>
+  </div>
+
+  <div id="video" class="content">
+    <h2>Classic Interview</h2>
+    <!-- Paste a YouTube embed for an Ayn Rand interview -->
+    <iframe width="560" height="315"
+      src="https://www.youtube.com/embed/1ooKsv_SX4Y"
+      frameborder="0" allowfullscreen>
+    </iframe>
+  </div>
+
+  <div id="tableau" class="content">
+    <h2>Live Tableau Visualization</h2>
+    <!-- Replace src with your chosen viz -->
+    <iframe
+      src="https://public.tableau.com/views/YourVizName?:showVizHome=no&:embed=true"
+      width="800" height="600" frameborder="0" scrolling="no">
+    </iframe>
+  </div>
+
+  <div class="footer">
+    <a href="#header">Back to Top</a>
+  </div>
+
+</body>
+</html>
 body {
-  background-color: #f0f5f9;
-  font-family: 'Georgia', serif;
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f8;
   color: #333;
+  margin: 0;
 }
 .header {
-  background: url('starry-bg.jpg') no-repeat center;
-  background-size: cover;
-  padding: 10px;
+  background-color: #222;
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+.nav a {
+  color: #0066cc;
+  text-decoration: none;
+  margin: 0 10px;
+}
+.nav a:hover {
+  color: #004499;
 }
 .content {
-  display: flex;
-  flex-direction: column;
   margin: 20px;
+  padding: 10px;
+  background-color: #fff;
+  border-radius: 4px;
 }
 .footer {
   text-align: center;
-  font-size: 0.8em;
+  padding: 10px;
+  font-size: 0.9em;
 }
-a:hover {
-  color: #0056b3;
-}
+<iframe width="560" height="315"
+  src="https://www.youtube.com/embed/1ooKsv_SX4Y"
+  frameborder="0" allowfullscreen>
+</iframe>
+<iframe
+  src="https://public.tableau.com/views/YourVizName?:showVizHome=no&:embed=true"
+  width="800" height="600">
+</iframe>
+<img src="ayn1.jpg" alt="Ayn Rand in early career">
