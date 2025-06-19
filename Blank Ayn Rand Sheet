@@ -1,0 +1,47 @@
+<ol>
+  <li>The Fountainhead
+    <ul>
+      <li>Individualism</li>
+      <li>Architectural integrity</li>
+    </ul>
+  </li>
+  <li>Atlas Shrugged
+    <ul>
+      <li>Rational self‑interest</li>
+      <li>Capitalism as moral</li>
+    </ul>
+  </li>
+</ol>
+<img src="ayn‑rand‑photo.jpg" alt="Ayn Rand in 1940s" />
+<iframe width="560" height="315"
+ src="https://www.youtube.com/embed/VIDEO_ID"
+ title="Ayn Rand Objectivism Explained"
+ frameborder="0" allowfullscreen></iframe>
+<a href="#fountainhead">Dive Deeper</a>
+...
+<h2 id="fountainhead">The Fountainhead & Themes</h2>
+<div class="tableauPlaceholder" id="viz">
+  <!-- embed code from Tableau Public -->
+</div>
+body {
+  background-color: #f0f5f9;
+  font-family: 'Georgia', serif;
+  color: #333;
+}
+.header {
+  background: url('starry-bg.jpg') no-repeat center;
+  background-size: cover;
+  padding: 10px;
+}
+.content {
+  display: flex;
+  flex-direction: column;
+  margin: 20px;
+}
+.footer {
+  text-align: center;
+  font-size: 0.8em;
+}
+a:hover {
+  color: #0056b3;
+}
