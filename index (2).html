@@ -1,0 +1,16 @@
+<script>
+  // Your JavaScript code here
+  document.getElementById('new-joke-btn').addEventListener('click', fetchJoke);
+
+  async function fetchJoke() {
+    try {
+      const response = await fetch('https://v2.jokeapi.dev/joke/Any?type=single');
+      const data = await response.json();
+      const jokeText = data.joke || 'No joke found. Try again!';
+      document.getElementById('joke').textContent = jokeText;
+    } catch (error) {
+      console.error('Error fetching joke:', error);
+      document.getElementById('joke').textContent = 'Oops! Something went wrong.';
+    }
+  }
+</script>
